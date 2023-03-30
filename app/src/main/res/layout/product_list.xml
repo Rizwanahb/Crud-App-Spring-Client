@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="vertical"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+        android:layout_weight="70" >
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtProductNavn"
+        android:layout_margin="5dp"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtType"
+        android:layout_margin="5dp"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtPrice"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+    <!--
+    <TextView
+        android:id="@+id/productListItem_name"
+        android:text="Product Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/productListItem_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/productListItem_name"/>
+
+    <TextView
+        android:id="@+id/productListItem_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="16sp"
+        android:text="Price"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+       />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#C2C2C2"
+        app:layout_constraintTop_toBottomOf="@id/productListItem_type" />
+
+-->

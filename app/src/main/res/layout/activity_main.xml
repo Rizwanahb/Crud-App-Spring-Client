@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:layout_weight="60"
+            android:text="Choose Product Type"
+            />
+
+        <Spinner android:layout_height="50dp"
+            android:layout_width="150dp"
+            android:id="@+id/spnProductType"
+            android:scrollbarSize="100dp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/form_textFieldName"
+        android:hint="@string/form_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp" />
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/form_textFieldPrice"
+        android:hint="@string/form_price"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/form_buttonSave"
+        android:text="@string/button_save_product"
+        android:layout_alignParentBottom="true"
+        android:minHeight="60dp"
+        android:layout_marginBottom="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/form_buttonGetAll"
+        android:text="Show Products"
+        android:layout_alignParentBottom="true"
+        android:minHeight="60dp"
+        android:layout_marginBottom="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

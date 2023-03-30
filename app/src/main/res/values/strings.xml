@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpringClient</string>
+    <string name="form_name">Name</string>
+    <string name="form_type">Type</string>
+    <string name="form_price">Price</string>
+    <string name="button_save_product">Save Product</string>
+</resources>
